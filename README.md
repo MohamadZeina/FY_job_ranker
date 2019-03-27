@@ -1,2 +1,4 @@
 # FY_job_ranker
-A python script to rank foundation year jobs based on specialty and location
+A python script to rank UK foundation year doctor jobs based on specialty and location. Designed for the North Central and East deanery for jobs starting in 2019, but could easily be adapted for other deaneries or years. 
+
+The dictionary jobs_dict stores a list of specialties or locations, where the value is the value that you would like to assign to those choices. For example, you should give jobs a positive value if you would like to do them, and a negative one if you would not. At the end of the script, it outputs an Excel file with your jobs now ranked according to your preferences.
